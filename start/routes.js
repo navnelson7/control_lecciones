@@ -17,3 +17,6 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+//** definiendo rutas controller alumno */
+Route.get('alumno', 'AlumnoController.index')
